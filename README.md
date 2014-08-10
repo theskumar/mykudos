@@ -7,12 +7,14 @@ Inspired by svbtle website and disqus. It let's you add kudos to on any page of 
 # Installation
 
 Add this code, where you want the button to appear:
-```
+
+```html
 <div id="mykudos"></div>
 ```
 
 Add this code, at the bottom of your page:
-```
+
+```html
 <script>(function(m,y,k,u,d,o,s){m['mykudos']=d;m[d]=m[d]||function(){
 (m[d].q=m[d].q||[]).push(arguments)},m[d].l=1*new Date(); o=y.createElement(k);
 s=y.getElementsByTagName(k)[0];o.async=1;o.src=u;s.parentNode.insertBefore(o,s)}
@@ -20,6 +22,14 @@ s=y.getElementsByTagName(k)[0];o.async=1;o.src=u;s.parentNode.insertBefore(o,s)}
 <link href="http://saurabh-kumar.com/mykudos/ku.css" rel="stylesheet">
 ```
 
-Your are done.
+You are done <span id='rotate90'>:)<</span>
+
+## Contributing
+
+You can open a pull request [here](). Read the guidelines for contribution here.
+
+## License
+
+BSD
 
 **THIS IS WORK IN PROGRESS**
