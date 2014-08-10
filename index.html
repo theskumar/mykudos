@@ -10,12 +10,26 @@
         </style>
     </head>
     <body>
-        <section class="main">
-            <h1>myKudos</h1>
-            <h3>An open kudo system for everyone.</h3>
-            <div id="mykudos"></div>
-        </section>
+        <h1><a name="user-content-mykudos" href="#mykudos" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>myKudos</h1>
+        <p>An open kudo system for everyone.</p>
+        <p>Inspired by svbtle website and disqus. It let&rsquo;s you add kudos to on any page of your website.</p>
+        <h1 id="installation"><a name="user-content-installation" href="#installation" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>Installation</h1>
+        <p>Add this code, where you want the button to appear:</p>
+        <pre><code>&lt;div id=&quot;mykudos&quot;&gt;&lt;/div&gt;
+        </code></pre>
 
+        <p>Add this code, at the bottom of your page:</p>
+        <pre><code>&lt;script&gt;(function(m,y,k,u,d,o,s){m['mykudos']=d;m[d]=m[d]||function(){
+        (m[d].q=m[d].q||[]).push(arguments)},m[d].l=1*new Date(); o=y.createElement(k);
+        s=y.getElementsByTagName(k)[0];o.async=1;o.src=u;s.parentNode.insertBefore(o,s)}
+        )(window,document,'script','http://saurabh-kumar.com/mykudos/ku.js','ku');&lt;/script&gt;
+        &lt;link href=&quot;http://saurabh-kumar.com/mykudos/ku.css&quot; rel=&quot;stylesheet&quot;&gt;
+        </code></pre>
+
+        <p>Your are done.</p>
+        <p><strong>THIS IS WORK IN PROGRESS</strong></p>
+
+        <div id="mykudos"></div>
 
         <script>(function(m,y,k,u,d,o,s){m['mykudos']=d;m[d]=m[d]||function(){
         (m[d].q=m[d].q||[]).push(arguments)},m[d].l=1*new Date(); o=y.createElement(k);
