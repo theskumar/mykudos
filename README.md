@@ -18,15 +18,15 @@ Add this code, at the bottom of your page:
 <script>(function(m,y,k,u,d,o,s){m['mykudos']=d;m[d]=m[d]||function(){
 (m[d].q=m[d].q||[]).push(arguments)},m[d].l=1*new Date(); o=y.createElement(k);
 s=y.getElementsByTagName(k)[0];o.async=1;o.src=u;s.parentNode.insertBefore(o,s)}
-)(window,document,'script','http://saurabh-kumar.com/mykudos/ku.js','ku');</script>
-<link href="http://saurabh-kumar.com/mykudos/ku.css" rel="stylesheet">
+)(window,document,'script','https://saurabh-kumar.com/mykudos/ku.js','ku');</script>
+<link href="https://saurabh-kumar.com/mykudos/ku.css" rel="stylesheet">
 ```
 
 You are done <span id='rotate90'>:)<</span>
 
 ## Contributing
 
-You can open a pull request [here](). Read the guidelines for contribution here.
+You can open a pull request [here](https://github.com/theskumar/mykudos/issues). Read the guidelines for contribution [here](CONTRIBUTING.md).
 
 ## License
 
